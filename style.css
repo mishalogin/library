@@ -1,0 +1,260 @@
+.hero {
+    height:600px;
+    background-image: url("./img/welcome-background.png");
+    display:flex;
+    align-items: center;
+}
+
+.hero h2 {
+    color: rgb(255, 255, 255);
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 35px 40px;
+}
+
+.hero div {
+    width: 600px;
+    height:220px;
+    background: rgb(12,12,14);
+    margin-top: 60px;
+}
+
+.about {
+    margin: 20px 20px 0;
+}
+
+
+h1  {
+    color: rgb(255, 255,255);
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 2%;
+    margin-right: auto;
+}
+
+.width-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(12,12,14);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.about h2 {
+    color: rgb(12,12,14);
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.about p {
+    color: rgb(12,12,14);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about div {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.favorites {
+    margin: 20px 20px 0;
+}
+
+.favorites h2 {
+    color: rgb(12,12,14);
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.favorites ul {
+    width: 550px;
+    height: 555px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0,0,0);
+    padding: 15px 175px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.card-info {
+    color: rgb(0,0,0);
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: ;
+}
+
+.card-button button {
+    width 75px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(12,12,14);
+    border-radius: 2px;
+    background-color: white;
+    color: rgb(12,12,14);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+
+.card-button.active button {
+    color: rgb(187, 148, 95);
+    border-color: rgb(187, 148, 95);
+}
+
+.card-button {
+    margin-top: auto;
+}
+
+}
+
+.card-img {
+    position: absolute;
+    background-origin: 0;
+    right: -40px;
+}
+
+.card-img img {
+    display: block;
+
+}
+
+.favorites div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 260px;
+}
+
+,coffee-shop {
+    margin: 60px 20px 0;
+}
+
+.coffee-shop h2 {
+    color:rgb(0,0,0)
+
+
+}
+
+.coffee-shop h3 {
+    color: rgb(187, 148, 95);
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.coffee-tea,
+.desserts-cakes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menu-name-item {
+    color: rgb(0,0,0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.menu-line-item {
+    width: 100px;
+    height: 1px;
+    background-color: rgb(187, 148, 95);
+}
+
+.menu-price-item {
+    color: rgb(0,0,0);
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.coffee-tea ul {
+.desserts-cakes ul {
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+}
+
+.coffe-shop div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.coffee-tea {
+    width: 445px;
+}
+
+.coffe-tea .menu-name-item {
+    margin-right: auto;
+}
+
+.desserts-cakes {
+text-align: right;
+}
+
+.desserts-cakes ul {
+    justify-content: flex-end;
+}
+
+/*out contacts */
+
+.contacts {
+    margin: 60px 20px 0;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
